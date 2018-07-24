@@ -1,0 +1,89 @@
+body {
+	background-image:url(../img/bg1.jpg);
+	background-size:cover;
+	background-position:top;
+	background-attachment:fixed;
+	color:#ccc;
+}
+.centersearch {
+	width:800px;
+	margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+	text-align:center;
+	height:200px;
+}
+.centerboxsmall {
+	width:400px;
+	margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+	text-align:center;
+}
+.centerboxsmall a {
+	color:#000;
+}
+.centerboxsmall .alert {
+	position: absolute;
+    top: -89px;
+    z-index: 100;
+}
+.centerboxsmall input[type="text"], .centerboxsmall input[type="email"], .centerboxsmall input[type="password"], .centerboxsmall select{
+	width:100%;
+	padding:15px;
+	font-weight:100;
+	margin-bottom:10px;
+}
+.centerboxsmall input[type="submit"], .centerboxsmall input[type="button"]{
+	width:100%;
+	padding:15px;
+	margin-bottom:10px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+.centersearch input[type="text"]{
+	width:70%;
+	display:inline-block;
+	padding:15px;
+	font-weight:100;
+}
+
+.centersearch input[type="submit"], .centersearch input[type="button"] {
+	width:20%;
+	margin-left:8px;
+	display:inline-block;
+	margin-top: -5px;
+	padding:15px;
+	font-weight:light;
+}
+.nav {
+	padding:20px;
+	font-size:13px;
+}
+.nav a, .centersearch a, .centersearch {
+	color:#fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+	color:#fff !important;
+}
+.searchleft {
+	float:left;
+}
+.searchright {
+	float:right;
+}
+.overlaytop {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:250px;
+	background-image:url(../img/ovtop.png);
+}
+.overlaybottom {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:61px;
+	background-image:url(../img/ovbot.png);
+}
